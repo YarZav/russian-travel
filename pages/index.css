@@ -1,3 +1,9 @@
+/* Screens */
+/* 1280+ */
+/* 1024 */
+/* 768 */
+/* 320 */
+
 /* Vendor */
 @import url("../vendor/normalize.css");
 
@@ -26,17 +32,30 @@
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__list/intro__list.css");
 
-.photo-grid {
-    margin: 0;
-    margin-top: 92px;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 16px;
-    row-gap: 16px;
-    justify-content: center;
-}
+/* Photo-grid */
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__item/photo-grid__item.css");
 
-.photo-grid__item {
-    width: 284px;
-    height: 213px;
-}
+/* Places */
+@import url("../blocks/places/places.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__title/place__title.css");
+@import url("../blocks/place/__image/places__image.css");
+@import url("../blocks/place/__website/place__website.css");
+@import url("../blocks/place/__url-heading/place__url-heading.css");
+@import url("../blocks/place/__link/place__link.css");
+@import url("../blocks/place/__paragraphs/place__paragraphs.css");
+@import url("../blocks/place/__paragraph/place__paragraph.css");
+
+/* Cover */
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__overlay/cover__overlay.css");
+@import url("../blocks/cover/__info/cover__info.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
+
+/* Footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
