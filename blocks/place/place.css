@@ -13,38 +13,22 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
-        margin: 0;
-        display: grid;
         grid-template-columns: 440px 456px;
         grid-template-rows: auto 440px;
-        grid-template-areas:
-        "title website"
-        "image paragraphs";
-        row-gap: 48px;
         column-gap: 32px;
-        justify-content: center;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
-        margin: 0;
-        display: grid;
         grid-template-columns: 340px 352px;
         grid-template-rows: auto auto;
-        grid-template-areas:
-        "title website"
-        "image paragraphs";
-        row-gap: 48px;
         column-gap: 28px;
-        justify-content: center;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place {
-        margin: 0;
-        display: grid;
         grid-template-columns: 320px;
         grid-template-rows: auto 46px 320px auto;
         grid-template-areas:
@@ -53,6 +37,5 @@
         "image" 
         "paragraphs";
         row-gap: 32px;
-        justify-content: center;
     }
 }

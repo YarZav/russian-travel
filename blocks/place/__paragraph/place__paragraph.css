@@ -8,10 +8,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__paragraph {
-        margin: 0;
-        color: #ffffff;
         line-height: 26px;
         font-size: 16px;
-        font-weight: 400;
     }
 }

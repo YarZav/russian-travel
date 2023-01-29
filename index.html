@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Путешествие по России</title>
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
 </head>
 
@@ -19,12 +17,10 @@
       <img class="header__logo" src="images/header-logo.svg" alt="Логотип сайта">
       <ul>
         <li>
-          <input type="radio" id="f-option" name="selector" checked>
-          <label class="header__lang-link highlight" for="f-option">Ru</label>
+          <a class="header__lang-link highlight" href="#">Ru</a>
         </li>
         <li>
-          <input type="radio" id="s-option" name="selector">
-          <label class="header__lang-link highlight" for="s-option">En</label>
+          <a class="header__lang-link highlight" href="#">En</a>
         </li>
       </ul>
     </header>
@@ -33,17 +29,17 @@
     <main>
 
       <!-- Lead -->
-      <div class="lead">
+      <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <div class="lead__image-container">
           <img class="lead__image" src="images/lead-polka.jpg" alt="Спящий человек в вагоне плацкарта">
         </div>
         <p class="lead__caption">ваша полка — верхняя</p>
-      </div>
+      </section>
 
       <!-- Intro -->
-      <div class="intro">
+      <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
           провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
@@ -58,10 +54,10 @@
           <li>Природных заповедников 105</li>
           <li>Аэропортов 241</li>
         </ul>
-      </div>
+      </section>
 
       <!-- Photo-Grid -->
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img class="photo-grid__item highlight" src="images/photo-grid-train.jpg" alt="Фотография пейзажа из поезда">
         <img class="photo-grid__item highlight" src="images/photo-grid-atharva-tulsi.jpg"
           alt="Фотография пейзажа из поезда">
@@ -78,10 +74,10 @@
           alt="Фотография пейзажа из поезда">
         <img class="photo-grid__item highlight" src="images/photo-grid-baikal-2.jpg" alt="Фотография пейзажа из поезда">
         <img class="photo-grid__item highlight" src="images/photo-grid-ergaki.jpg" alt="Фотография пейзажа из поезда">
-      </div>
+      </section>
 
       <!-- Places -->
-      <div class="places">
+      <section class="places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
@@ -180,17 +176,17 @@
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Cover -->
-      <div class="cover">
+      <section class="cover">
         <img class="cover__overlay highlight" src="images/cover-trains.jpg" alt="Поезда">
         <div class="cover__info">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
             электричках.</p>
         </div>
-      </div>
+      </section>
     </main>
 
     <!-- Footer -->

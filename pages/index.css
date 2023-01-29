@@ -6,6 +6,7 @@
 
 /* Vendor */
 @import url("../vendor/normalize.css");
+@import url("../fonts/Inter/inter.css");
 
 /* Effects */
 @import url("../blocks/highlight/highlight.css");

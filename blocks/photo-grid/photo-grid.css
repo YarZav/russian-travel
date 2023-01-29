@@ -10,36 +10,21 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .photo-grid {
-        margin: 0;
-        margin-top: 92px;
-        display: flex;
-        flex-wrap: wrap;
         column-gap: 14px;
         row-gap: 14px;
-        justify-content: center;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .photo-grid {
-        margin: 0;
         margin-top: 88px;
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 16px;
-        row-gap: 16px;
-        justify-content: center;
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo-grid {
-        margin: 0;
         margin-top: 64px;
-        display: flex;
-        flex-wrap: wrap;
         column-gap: 12px;
         row-gap: 12px;
-        justify-content: center;
     }
 }
