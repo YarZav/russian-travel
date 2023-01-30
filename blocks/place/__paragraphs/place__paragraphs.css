@@ -3,12 +3,12 @@
     grid-area: "paragraphs";
 }
 
-.place__paragraphs > *:not(:last-child) {
+.place__paragraphs .place__paragraph:not(:last-child) {
     margin-bottom: 28px; 
 }
 
 @media screen and (max-width: 1023px) {
-    .place__paragraphs > *:not(:last-child) {
+    .place__paragraphs .place__paragraph:not(:last-child) {
         margin-bottom: 25px; 
     }
 }

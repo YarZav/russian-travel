@@ -1,13 +1,5 @@
-/* @font-face {
-    font-family: "Inter";
-    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
-    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
-    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
-    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
-} */
-
 .page {
-    background-color: #2a2c2f;
+    max-width: 1280px;
     margin: 0 auto;
     font-family: "Inter", Arial, sans-serif;
 }

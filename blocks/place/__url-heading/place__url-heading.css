@@ -1,10 +1,11 @@
 .place__url-heading {
-    margin: 0;
-    margin-bottom: 12px;
+    margin: 0 0 12px 0;
     color: #aaaaaa;
     line-height: 20px;
     font-size: 12px;
     font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
