@@ -1,13 +1,10 @@
 .places {
     max-width: 984px;
     width: 100%;
-    margin: 0;
-    margin-top: 111px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 111px auto 0 auto;
 }
 
-.places > *:not(:last-child) {
+.places > .place:not(:last-child) {
     margin-bottom: 80px; 
 }
 
@@ -24,7 +21,7 @@
         margin-top: 73px;
     }
 
-    .places > *:not(:last-child) {
+    .places > .place:not(:last-child) {
         margin-bottom: 73px; 
     }
 }
