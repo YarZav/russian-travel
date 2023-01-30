@@ -29,10 +29,10 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <div class="lead__image-container">
+        <figure>
           <img class="lead__image" src="images/lead-polka.jpg" alt="Спящий человек в вагоне плацкарта">
-        </div>
-        <p class="lead__caption">ваша полка — верхняя</p>
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <!-- Intro -->
@@ -45,37 +45,35 @@
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__list-span">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-span">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-span">16</span></li>
+          <li>Природных заповедников <span class="intro__list-span">105</span></li>
+          <li>Аэропортов <span class="intro__list-span">241</span></li>
         </ul>
       </section>
 
       <!-- Photo-Grid -->
       <section class="photo-grid">
         <img class="photo-grid__item highlight" src="images/photo-grid-train.jpg" alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-atharva-tulsi.jpg"
-          alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-tuman.jpg" alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-sochi.jpg" alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-arisa.jpg" alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-baikal.jpg" alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-elbrus.jpg" alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-kondratiev.jpg"
-          alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-kamchatka-1.jpg"
-          alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-kamchatka-2.jpg"
-          alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-baikal-2.jpg" alt="Фотография пейзажа из поезда">
-        <img class="photo-grid__item highlight" src="images/photo-grid-ergaki.jpg" alt="Фотография пейзажа из поезда">
+        <img class="photo-grid__item highlight" src="images/photo-grid-atharva-tulsi.jpg" alt="Фотография гор">
+        <img class="photo-grid__item highlight" src="images/photo-grid-tuman.jpg" alt="Фотография поля в тумане">
+        <img class="photo-grid__item highlight" src="images/photo-grid-sochi.jpg" alt="Фотография леса">
+        <img class="photo-grid__item highlight" src="images/photo-grid-arisa.jpg"
+          alt="Фотография колеса уазика на байкале">
+        <img class="photo-grid__item highlight" src="images/photo-grid-baikal.jpg" alt="Фотография моря и гор">
+        <img class="photo-grid__item highlight" src="images/photo-grid-elbrus.jpg" alt="Фотография пика Эльбруса">
+        <img class="photo-grid__item highlight" src="images/photo-grid-kondratiev.jpg" alt="Фотография порта">
+        <img class="photo-grid__item highlight" src="images/photo-grid-kamchatka-1.jpg" alt="Фотография Камчатки">
+        <img class="photo-grid__item highlight" src="images/photo-grid-kamchatka-2.jpg" alt="Фотография Камчатки">
+        <img class="photo-grid__item highlight" src="images/photo-grid-baikal-2.jpg"
+          alt="Фотография берега и льда Байкала">
+        <img class="photo-grid__item highlight" src="images/photo-grid-ergaki.jpg" alt="Фотография тумана и гор">
       </section>
 
       <!-- Places -->
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -92,9 +90,9 @@
               и
               запах стального, прохладного моря.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -114,9 +112,9 @@
               накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
               в Мурманск.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -134,9 +132,9 @@
               равнинах
               пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -154,9 +152,9 @@
               к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
@@ -172,27 +170,27 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <!-- Cover -->
-      <section class="cover">
+      <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
         <img class="cover__overlay highlight" src="images/cover-trains.jpg" alt="Поезда">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
-      </section>
+      </a>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a class="footer__link highlight" href="https://yandex.ru/maps" target="_blank">Карты</a>
         <a class="footer__link highlight" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
         <a class="footer__link highlight" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
         <a class="footer__link highlight" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
         <a class="footer__link highlight" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </div>
+      </nav>
       <p class="footer__copyright">© 2020. Впишите своё имя</p>
     </footer>
 
