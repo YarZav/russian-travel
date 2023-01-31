@@ -7,6 +7,9 @@
     .lead__image {
         width: 928px;
         margin-top: 56px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }
 
@@ -15,6 +18,9 @@
         max-width: 928px;
         width: 100%;
         margin-top: 56px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
 }
 
