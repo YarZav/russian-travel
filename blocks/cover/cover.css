@@ -11,13 +11,6 @@
     aspect-ratio: 1 / 0.625;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .cover {
-        width: 1024px;
-        height: 640px;
-    }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover {
         margin-top: 90px;

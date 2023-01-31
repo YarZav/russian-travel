@@ -3,9 +3,3 @@
     margin: 0;
     grid-area: "image";
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .places__image {
-        width: 440px;
-    }
-}
