@@ -1,5 +1,5 @@
 .places__image {
-    width: 460px;
+    width: 100%;
     margin: 0;
     grid-area: "image";
 }
@@ -7,17 +7,5 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .places__image {
         width: 440px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .places__image {
-        width: 340px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .places__image {
-        width: 320px;
     }
 }

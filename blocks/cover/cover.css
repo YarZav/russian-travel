@@ -6,6 +6,9 @@
     align-items: center;
     position: relative;
     text-align: center;
+    background-image: url("../../images/cover-trains.jpg");
+    background-size: cover;
+    aspect-ratio: 1 / 0.625;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -17,15 +20,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover {
-        width: 768px;
-        height: 640px;
         margin-top: 90px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
-        min-height: 200px;
         margin-top: 66px;
     }
 }
