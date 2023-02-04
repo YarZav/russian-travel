@@ -3,14 +3,10 @@
     width: 100%;
     height: 100%;
     margin: 92px auto 0 auto; 
-    background-image: url("../../images/cover-trains.jpg"); 
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    /* После нескольких сдач на ревью, пришел к выводу, что все-таки Ваш коментарий некорректный, без этого свойтсва высота картинки будет либо равно 0, либо равна высоте дочерних элементов в DOM дереве -- свойсво необходимо оставить. Либо нужно явно ыказывать высоту картинки, но это так же некорректно, так как высота должна быть разная в зависимости от текущего разрешения экрана браузера */
-    aspect-ratio: 1 / 0.625;
 }
 
 .cover::before {
@@ -25,4 +21,10 @@
 
 .cover:hover::before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-top: 66px;
+    }
 }
